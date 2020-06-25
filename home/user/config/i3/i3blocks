@@ -1,0 +1,18 @@
+# System load, updated every second
+[load_average]
+command=cut -d ' ' -f 1,2,3 /proc/loadavg
+interval=1
+color=#8be9fd
+
+# Guess the weather
+[weather]
+command=curl -Ss 'https://wttr.in/Bielefeld?0&Q&T' | cut -c 16- | head -2 | xargs echo
+#command=curl -Ss 'https://wttr.in/Bielefeld?lang=de&0&Q&T' | cut -c 16- | head -2 | xargs echo
+interval=900
+color=#8be9fd
+
+# Update time every second
+[time]
+command=date '+%a, %d. %b %T'
+interval=1
+color=#8be9fd
