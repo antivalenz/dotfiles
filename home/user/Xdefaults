@@ -1,0 +1,11 @@
+! ~/.Xdefaults file
+
+! URxvt
+URxvt.saveLines: 65536
+URxvt.scrollBar: false
+URxvt.foreground: grey
+URxvt.background: black
+URxvt.perl-ext-common: default,clipboard
+#URxvt.inheritPixmap: true
+URxvt*font: xft:Liberation Mono:size=12:antialias=true:hinting=true
+URxvt*boldFont: xft:Liberation Mono:bold:size=12:antialias=true:hinting=true
