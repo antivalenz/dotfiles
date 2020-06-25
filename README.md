@@ -12,6 +12,9 @@ are actually of use. This **should** happen with respect to the filesystem
 hierarchy standard ([FHS](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard)).
 But be prepared that locations may differ from the FHS.
 
+# Release model
+There are no releases for this project. It's rolling.
+
 # List of current dotfiles
 - .vimrc
 - .bashrc
