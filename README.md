@@ -20,4 +20,5 @@ There are no releases for this project. It's rolling.
 - .bashrc
 - config files for the i3 windowmanager
 - .Xdefaults
+- desktop starter files
 
