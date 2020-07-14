@@ -189,7 +189,7 @@ assign [instance="battle.net.exe" class="Wine"] $ws5
 
 # enable float for some windows
 for_window [window_role="About"] floating enable
-for_window [class="Pavucontrol"] floating enable
+#for_window [class="Pavucontrol"] floating enable
 for_window [class="^Arandr$"] floating enable
 for_window [class="jetbrains-idea" title="win0"] floating enable
 for_window [class="PCSX2"] floating enable
