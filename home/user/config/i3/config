@@ -189,12 +189,14 @@ assign [class="discord"] $ws4
 assign [class="Jitsi Meet"] $ws9
 # games on 0
 assign [class="Steam"] $ws0
-assign [instance="battle.net.exe" class="Wine"] $ws0
+assign [class="battle.net.exe"] $ws0
 
 # enable float for some windows
 for_window [window_role="About"] floating enable
-#for_window [class="Pavucontrol"] floating enable
 for_window [class="^Arandr$"] floating enable
-for_window [class="jetbrains-idea" title="win0"] floating enable
 for_window [class="qv4l2"] floating enable
+
+# assigning and floating by app
+assign [class="jetbrains-idea"] $ws6
+for_window [class="jetbrains-idea" title="win0"] floating enable
 
